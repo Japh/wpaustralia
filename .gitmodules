@@ -1,0 +1,15 @@
+[submodule "plugins/achievements"]
+	path = plugins/achievements
+	url = git@github.com:paulgibbs/achievements.git
+[submodule "plugins/invite-anyone"]
+	path = plugins/invite-anyone
+	url = git@github.com:boonebgorges/invite-anyone.git
+[submodule "plugins/welcome-pack"]
+	path = plugins/welcome-pack
+	url = git@github.com:paulgibbs/Welcome-Pack.git
+[submodule "plugins/forum-attachments-for-buddypress"]
+	path = plugins/forum-attachments-for-buddypress
+	url = git@github.com:boonebgorges/forum-attachments-for-buddypress.git
+[submodule "plugins/bp-group-management"]
+	path = plugins/bp-group-management
+	url = git@github.com:boonebgorges/bp-group-management.git
