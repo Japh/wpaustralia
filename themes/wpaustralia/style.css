@@ -1,0 +1,11 @@
+/*
+Theme Name: WPAustralia.org BuddyPress Child theme
+Theme URI: http://www.wpaustralia.org/
+Description: A quick child theme for WPAustralia
+Version: 1.0
+Author: Bronson Quick, Japheth Thomson, Brent Shepherd
+Author URI: http://www.wpaustralia.org/
+Template: bp-default
+Tags: buddypress, two-column, grey, dark
+*/
+/* Note: BuddyPress is now so awesome that we don't even need to use an @import to get style.css from the parent :) */
