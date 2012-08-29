@@ -13,3 +13,6 @@
 [submodule "plugins/bp-group-management"]
 	path = plugins/bp-group-management
 	url = git@github.com:boonebgorges/bp-group-management.git
+[submodule "plugins/bp-labs"]
+	path = plugins/bp-labs
+	url = git://github.com/paulgibbs/BP-Labs.git
