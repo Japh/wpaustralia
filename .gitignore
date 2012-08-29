@@ -7,3 +7,4 @@ wp-cache-config.php
 cache/*
 cache/supercache/*
 w3tc/*
+w3-total-cache-config.php
