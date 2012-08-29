@@ -10,3 +10,6 @@
 [submodule "plugins/forum-attachments-for-buddypress"]
 	path = plugins/forum-attachments-for-buddypress
 	url = git@github.com:boonebgorges/forum-attachments-for-buddypress.git
+[submodule "plugins/bp-group-management"]
+	path = plugins/bp-group-management
+	url = git@github.com:boonebgorges/bp-group-management.git
