@@ -1,0 +1,3 @@
+[submodule "plugins/achievements"]
+	path = plugins/achievements
+	url = git@github.com:paulgibbs/achievements.git
