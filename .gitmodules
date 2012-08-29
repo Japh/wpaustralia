@@ -4,3 +4,6 @@
 [submodule "plugins/invite-anyone"]
 	path = plugins/invite-anyone
 	url = git@github.com:boonebgorges/invite-anyone.git
+[submodule "plugins/welcome-pack"]
+	path = plugins/welcome-pack
+	url = git@github.com:paulgibbs/Welcome-Pack.git
