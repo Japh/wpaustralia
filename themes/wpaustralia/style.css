@@ -9,7 +9,9 @@ Template: bp-default
 Tags: buddypress, two-column, grey, dark
 */
 /* Note: BuddyPress is now so awesome that we don't even need to use an @import to get style.css from the parent :) */
-.like, .unlike, .view-likes {
+.like,
+.unlike,
+.view-likes {
 	background: #fff; /* Old browsers */
 	background: -moz-linear-gradient(top, #ffffff 0%, #ededed 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
@@ -32,7 +34,9 @@ Tags: buddypress, two-column, grey, dark
 	line-height: 14px;
 	margin-right: 5px;
 }
-.like:hover, .unlike:hover, .view-likes:hover {
+.like:hover,
+.unlike:hover,
+.view-likes:hover {
 	background: #ededed;
 	background: -moz-linear-gradient(top, #ffffff 0%, #e0e0e0 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e0e0e0)); /* Chrome,Safari4+ */
@@ -45,4 +49,14 @@ Tags: buddypress, two-column, grey, dark
 	color: #555;
 	outline: none;
 	text-decoration: none;
+}
+#respond .form-submit {
+	margin-bottom: 10px;
+}
+.standard-form label.subscribe-label,
+.standard-form label.subscribe-label {
+	display: inline;
+}
+p.comment-subscription-form {
+	margin-bottom: 0;
 }
