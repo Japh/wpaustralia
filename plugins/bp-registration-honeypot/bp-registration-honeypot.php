@@ -12,7 +12,7 @@ License: GPL2
  * Note: If this proves to be successful then I will put this into a class of course and I will actually format my
  * code in the WordPress way :P
  */
-function bq_buddypress_registration_honeypot(){?>
+function bq_buddypress_registration_honeypot() { ?>
 	<?php //Lets wrap this and hide it with CSS ?>
 	<div id="basic-details-honeypot-section" class="honeypot_container register-section">
 		<?php //Lets give it a dummy label that spam bots will think is real ?>
@@ -26,14 +26,14 @@ function bq_buddypress_registration_honeypot(){?>
 }
 add_action( 'bp_after_account_details_fields', 'bq_buddypress_registration_honeypot' );
 
-function bq_buddypress_registration_honeypot_validation(){
+function bq_buddypress_registration_honeypot_validation() {
 	global $bp;
 	if ( !empty($_POST['signup_honeypot']) )
-			$bp->signup->errors['signup_honeypot'] = __( 'Looks like you are a spammer', 'wpaustralia' );
+		$bp->signup->errors['signup_honeypot'] = __( 'Looks like you are a spammer', 'wpaustralia' );
 }
 add_action( 'bp_signup_validate', 'bq_buddypress_registration_honeypot_validation' );
-function bq_buddypress_registration_honeypot_css()
-{
+
+function bq_buddypress_registration_honeypot_css() {
 	wp_register_style( 'honeypot-css',
 		plugins_url('/css/bp-honeypot.css', __FILE__) );
 	wp_enqueue_style( 'honeypot-css' );
