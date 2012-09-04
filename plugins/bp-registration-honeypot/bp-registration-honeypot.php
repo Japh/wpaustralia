@@ -2,9 +2,7 @@
 /*
 Plugin Name: BuddyPress Registration Honeypot
 Plugin URI: http://www.wpaustralia.org
-Description: This BuddyPress plugin adds an input field on the registartion that is hidden for normal users and will be
-filled out by bots. If the field contains data then the registration will fail. If it's empty then the registration will
-continue. This plugin has no options because options are overrated!
+Description: This BuddyPress plugin adds an input field on the registartion that is hidden for normal users and will be filled out by bots. If the field contains data then the registration will fail. If it's empty then the registration will continue. This plugin has no options because options are overrated!
 Version: 0.1
 Author: Bronson Quick
 Author URI: http://www.sennza.com.au/
