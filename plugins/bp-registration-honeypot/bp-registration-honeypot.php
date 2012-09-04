@@ -29,7 +29,7 @@ add_action( 'bp_after_account_details_fields', 'bq_buddypress_registration_honey
 function bq_buddypress_registration_honeypot_validation(){
 	global $bp;
 	if ( !empty($_POST['signup_honeypot']) )
-			$bp->signup->errors['signup_honeypot'] = __( 'Looks like you are a spammer', 'buddypress' );
+			$bp->signup->errors['signup_honeypot'] = __( 'Looks like you are a spammer', 'wpaustralia' );
 }
 add_action( 'bp_signup_validate', 'bq_buddypress_registration_honeypot_validation' );
 function bq_buddypress_registration_honeypot_css()
