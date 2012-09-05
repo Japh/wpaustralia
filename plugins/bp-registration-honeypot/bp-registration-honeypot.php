@@ -35,7 +35,10 @@ add_action( 'bp_signup_validate', 'bq_buddypress_registration_honeypot_validatio
 
 function bq_buddypress_registration_honeypot_css() {
 	wp_register_style( 'honeypot-css',
-		plugins_url('/css/bp-honeypot.css', __FILE__) );
+		plugins_url('/css/bp-honeypot.css',
+			__FILE__),
+			 array(),
+			'0.1');
 	wp_enqueue_style( 'honeypot-css' );
 }
 add_action( 'wp_enqueue_scripts', 'bq_buddypress_registration_honeypot_css' );
