@@ -9,6 +9,9 @@ Template: bp-default
 Tags: buddypress, two-column, grey, dark
 */
 /* Note: BuddyPress is now so awesome that we don't even need to use an @import to get style.css from the parent :) */
+#header {
+	z-index: 1;
+}
 .like,
 .unlike,
 .view-likes {
