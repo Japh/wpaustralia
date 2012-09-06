@@ -16,3 +16,6 @@
 [submodule "plugins/bp-labs"]
 	path = plugins/bp-labs
 	url = git://github.com/paulgibbs/BP-Labs.git
+[submodule "plugins/facebook"]
+	path = plugins/facebook
+	url = git://github.com/facebook/wordpress.git
