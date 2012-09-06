@@ -71,12 +71,15 @@ class Sennza_BuddyPress_Registration_HoneyPot {
 	 * @since 0.2
 	 */
 	public function sennza_buddypress_registration_honeypot_css() {
-		wp_register_style(
-		'honeypot-css',
-		plugins_url( '/css/bp-honeypot.css',__FILE__ ),
-		false,
-		BUDDYPRESS_HONEYPOT_REGISTRATION_VERSION
-		);
-		wp_enqueue_style( 'honeypot-css' );
+		/* Props to Boone for picking up on me enqueue the CSS on all the pages :) */
+		if ( bp_is_register_page() ):
+			wp_register_style(
+			'honeypot-css',
+			plugins_url( '/css/bp-honeypot.css',__FILE__ ),
+			false,
+			BUDDYPRESS_HONEYPOT_REGISTRATION_VERSION
+			);
+			wp_enqueue_style( 'honeypot-css' );
+		endif;
 	}
 }
