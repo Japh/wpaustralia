@@ -27,7 +27,7 @@ $sennza_buddypress_registration_honeypot = new Sennza_BuddyPress_Registration_Ho
 class Sennza_BuddyPress_Registration_HoneyPot {
 
 	/**
-	 * Setup all the magic for our honeypoty
+	 * Setup all the magic for our honeypot
 	 * @since 0.2
 	 */
 	public function __construct(){
