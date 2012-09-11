@@ -18,7 +18,12 @@ Tags: buddypress, two-column, grey, dark
 }
 .like,
 .unlike,
-.view-likes {
+.view-likes,
+.acomment-reply,
+.acomment-delete,
+.spam-activity-comment,
+.bpm-unflagged,
+.bpm-flagged {
 	background: #fff; /* Old browsers */
 	background: -moz-linear-gradient(top, #ffffff 0%, #ededed 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
@@ -43,7 +48,12 @@ Tags: buddypress, two-column, grey, dark
 }
 .like:hover,
 .unlike:hover,
-.view-likes:hover {
+.view-likes:hover,
+.acomment-reply:hover,
+.acomment-delete:hover,
+.spam-activity-comment:hover,
+.bpm-unflagged:hover,
+.bpm-flagged:hover {
 	background: #ededed;
 	background: -moz-linear-gradient(top, #ffffff 0%, #e0e0e0 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e0e0e0)); /* Chrome,Safari4+ */
@@ -66,4 +76,19 @@ Tags: buddypress, two-column, grey, dark
 }
 p.comment-subscription-form {
 	margin-bottom: 0;
+}
+a.acomment-delete,
+a.spam-activity-comment {
+	padding: 4px 10px;
+}
+.acomment-options a {
+	color: #666;
+}
+.bpm-unflagged .bpm-inner-text,
+.bpm-flagged .bpm-inner-text {
+	text-decoration: none;
+}
+.bpm-no-images .bpm-inner-text {
+	padding-left: 20px;
+	background: url(../../plugins/bp-moderation/css/sprite.png) no-repeat;
 }
