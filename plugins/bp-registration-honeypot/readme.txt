@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== BuddyPress Registration Honeypot ===
 Contributors: sennza, japh
 Donate link: http://www.wpaustralia.org/
 Tags: buddypress, spam, registration, honeypot
